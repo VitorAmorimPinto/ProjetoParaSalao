@@ -1,0 +1,23 @@
+{% load bootstrap5 %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Salao e Estética Debora Amorim</title>
+  	<link rel="stylesheet" type="text/css" href="{% static 'css/Style.css' %}">
+    <link href=" {% static 'css/one-page-wonder.css' %}" rel="stylesheet">
+    <link href=" {% static 'fontawesome/css/all.css' %}" rel="stylesheet">
+    <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+    <script src="{% static 'js/jquery.mask.min.js'%}"></script>
+    <script src="{% static 'js/mask.js' %}"></script>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+{% block content %}
+
+{% endblock %}
+</body>
+</html>
